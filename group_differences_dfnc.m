@@ -35,10 +35,10 @@ end
 
 % specify parameters for permutation testing
 
-N_patients          = 61;
-N_healthy_controls  = 57;
+N_patients          = 57;
+N_healthy_controls  = 61;
 
-design              = [ones(1,N_patients) 2*ones(1,N_healthy_controls)];
+design              = [ones(1,N_healthy_controls) 2*ones(1,N_patients)];
 niter               = 10000; % number of permutations
 g1                  = find(design==1);
 g2                  = find(design==2);
