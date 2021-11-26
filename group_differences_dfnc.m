@@ -1,6 +1,6 @@
-% the following code uses the output from the "Temporal  dynamic  FNC
+% the following code is based on the output from the "Temporal  dynamic  FNC
 % toolbox  (dFNC)" that is part of GroupICATv4.0b (GIFT): 
-% prefix_dfnc_cluster_stats.mat: dfnc_corrs 
+% prefix_dfnc_cluster_stats.mat: dfnc_corrs (participant*connectivityValues*state)
 
 % group comparison performed with: 
 % bramila_ttest2_np.m from https://version.aalto.fi/gitlab/BML/bramila
@@ -12,7 +12,6 @@
 % -----------------------------------
 
 addpath('path\to\bramila-master\');
-addpath('path\to\fdr_bh.m');
 addpath(genpath('path\to\GroupICATv4.0b'));
 
 
