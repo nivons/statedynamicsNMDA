@@ -1,5 +1,5 @@
-# statedynamicsNMDA
+# statedynamicsNMDARE
 
-the code was used for the analysis of state-dependent signatures in anti-NMDA receptor encephalitis
+This repository shares statistical code for the my publication in Brain Communications "State-dependent signatures in anti-NMDA receptor encephalitis. a dynamic functional connectivity study".
 
-if you have questions please contact: nina.schwanenflug@charite.de
+
